@@ -1,0 +1,13 @@
+{
+  "keywords": [
+    ""
+  ],
+  "name": "gnostic",
+  "description": "General knowledge.",
+  "repository": "https://github.com/PolyformsRobots/gnostic.git",
+  "env": {
+    "TOKEN_SLACK": {
+      "description": "Your Slack bot integration token (obtainable at https://my.slack.com/services/new/bot)"
+    }
+  }
+}
