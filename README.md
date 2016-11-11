@@ -7,15 +7,9 @@
         <img src='https://img.shields.io/coveralls/PolyformsRobots/gnostic.svg' alt='Coverage Status' />
     </a>
 </p>
-<p align="center">
-    <a title='blog' href='http://polyforms.net/bots'>
-       <img src='https://img.shields.io/badge/style-blog-blue.svg?label=my' alt='blog' />
-    </a>
-</p>
 
 ## About gnostic
 >gnostic is a  node.js slack bot.
-General knowledge.
 
 ## Bot Command list
 
