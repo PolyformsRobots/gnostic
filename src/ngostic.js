@@ -4,7 +4,7 @@ var Bot = require('slackbots');
 var assert = require('assert');
 var slackMessageAnalyzer = require('./slackMessageAnalyzer');
 
-class Gnostic {
+class Ngostic {
 
   /**
    * @param {String} slackToken Your Slack bot integration token (obtainable at https://my.slack.com/services/new/bot)
@@ -14,7 +14,7 @@ class Gnostic {
 
     var settingsBot = {
       token: slackToken,
-      name: 'gnostic'
+      name: 'ngostic'
     };
 
     this.bot = new Bot(settingsBot);
@@ -30,11 +30,11 @@ class Gnostic {
    */
   _startChannelMessageListner() {
     this.bot.on('start', (function() {
-      var message = 'Hello I am gnostic';
-      var fallBack = 'gnostic is here';
+      var message = 'Hello I am ngostic';
+      var fallBack = 'ngostic is here';
       var color = 'warning';
-      var title = 'gnostic greetings';
-      var titleLink = 'Hello I am gnostic';
+      var title = 'ngostic greetings';
+      var titleLink = 'Hello I am ngostic';
 
       this.postSlackMessage(message, fallBack, color, null, title, titleLink, 'general');
     }).bind(this));
@@ -72,7 +72,7 @@ class Gnostic {
         {
           'fallback': fallback,
           'color': color || this.infoColor,
-          'title': title ? title : 'gnostic',
+          'title': title ? title : 'ngostic',
           'title_link': titleLink,
           'text': message,
           'fields': fields,
@@ -108,4 +108,4 @@ class Gnostic {
   }
 }
 
-module.exports = Gnostic;
+module.exports = Ngostic;
