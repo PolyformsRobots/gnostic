@@ -8,9 +8,6 @@
     </a>
 </p>
 <p align="center">
-    <a title='closed issue' href='http://issuestats.com/github/PolyformsRobots/gnostic'>
-        <img src='http://issuestats.com/github/PolyformsRobots/gnostic/badge/issue' alt='issue stats' />
-    </a>
     <a title='blog' href='http://polyforms.net/bots'>
        <img src='https://img.shields.io/badge/style-blog-blue.svg?label=my' alt='blog' />
     </a>
