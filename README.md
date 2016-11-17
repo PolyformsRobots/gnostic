@@ -3,9 +3,6 @@
     <a title='Build Status' href="https://travis-ci.org/PolyformsRobots/gnostic">
         <img src='https://travis-ci.org/PolyformsRobots/gnostic.svg?branch=master' alt='travis Status' />
     </a>
-    <a title='coveralls Status' href='https://coveralls.io/r/PolyformsRobots/gnostic'>
-        <img src='https://img.shields.io/coveralls/PolyformsRobots/gnostic.svg' alt='Coverage Status' />
-    </a>
 </p>
 
 ## About gnostic
