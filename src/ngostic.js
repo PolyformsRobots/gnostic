@@ -44,7 +44,7 @@ class Ngostic {
    * Post a message on slack chat in answer to hello
    */
   _listenerHelloMessage() {
-    this._listenerMessage(this.isHelloMessage, (function(message) {
+    this._listenerMessage(this.isHelloMessage, (function() {
       var message = 'Hello answer';
       var fallBack = 'Hello answer';
       var color = 'warning';

@@ -3,18 +3,18 @@
  * @see https://github.com/jscs-dev/grunt-jscs
  */
 module.exports = function() {
-    return {
-        src: [
-            'Gruntfile.js',
-            'grunt/**/*.js',
-            'test/*.js',
-            'src/**/*.js'
-        ],
-        options: {
-            config: '.jscsrc',
-            esnext: true,
-            verbose: true,
-            fix: true
-        }
-    };
+  return {
+    src: [
+        'Gruntfile.js',
+        'grunt/**/*.js',
+        'test/*.js',
+        'src/**/*.js'
+    ],
+    options: {
+      config: '.jscsrc',
+      esnext: true,
+      verbose: true,
+      fix: true
+    }
+  };
 };

@@ -11,7 +11,7 @@ class slackMessageAnalyzer {
      * @return {String} slack format message link
      */
     static createSlackMessageLink(titleLink, link) {
-        return '<' + link + '|' + titleLink + '>';
+      return '<' + link + '|' + titleLink + '>';
     }
 
     /**
@@ -23,7 +23,7 @@ class slackMessageAnalyzer {
      * @return {String} slack format message link
      */
     static isTextContainedInMessage(textMessage, textToSearch) {
-        return textMessage && textMessage.toLowerCase().indexOf(textToSearch) > -1;
+      return textMessage && textMessage.toLowerCase().indexOf(textToSearch) > -1;
     }
 }
 
